@@ -29,8 +29,8 @@
 default['nrpe']['package']['options'] = nil
 
 # default user / group for NRPE on most platforms
-default['nrpe']['user']  = 'nagios'
-default['nrpe']['group'] = 'nagios'
+default['nrpe']['user']  = 'nrpe'
+default['nrpe']['group'] = 'nrpe'
 
 # config file options
 default['nrpe']['allow_bash_command_substitution'] = nil
